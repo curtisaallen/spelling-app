@@ -1,0 +1,9 @@
+.big-input {
+width: 100%; padding: 12px 14px; border-radius: 12px;
+border: 1px solid rgba(255,255,255,.12);
+background: rgba(0,0,0,.25); color: $text; font-size: 1.1rem;
+}
+.cta { padding: 10px 14px; border-radius: 12px; border: none; background: $accent; color: #03112b; font-weight: 800; cursor: pointer; }
+
+select, input, textarea { color: #1d293d; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 10px; }
+label { color: $muted; font-size: .95rem; display:block; margin: 8px 0 4px; }

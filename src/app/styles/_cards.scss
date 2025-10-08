@@ -1,0 +1,7 @@
+.card { background: $card; border-radius: $radius; box-shadow: $shadow; border: 1px solid rgba(255,255,255,.06); }
+.card.pad { padding: 16px; }
+.hint { color: $muted; letter-spacing: .12em; }
+.results { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.results th, .results td { border-bottom: 1px dashed rgba(255,255,255,.08); padding: 6px 8px; }
+.results tr.ok { color: $success; }
+.results tr.bad { color: $error; }
