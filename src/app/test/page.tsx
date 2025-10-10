@@ -1,13 +1,8 @@
-import WordListPicker from "../components/WordListPicker";
-import TestRunner from "../components/TestRunner";
+import dynamic from "next/dynamic";
+
+// Render children only in the browser to avoid build-time Firebase/Auth
+const TestClient = dynamic(() => import("./TestClient"), { ssr: false });
 
 export default function TestPage() {
-  return (
-      <>
-       <section className="max-w-4xl mx-auto px-4 md:px-8 md:py-14"> 
-        <WordListPicker />
-        <TestRunner  />
-       </section> 
-      </>
-  );
+  return <TestClient />;
 }
