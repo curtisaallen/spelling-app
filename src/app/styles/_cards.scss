@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .card { background: $card; border-radius: $radius; box-shadow: $shadow; border: 1px solid rgba(255,255,255,.06); }
 .card.pad { padding: 16px; }
 .hint { color: $muted; letter-spacing: .12em; }

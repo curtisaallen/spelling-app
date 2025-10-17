@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .big-input {
 width: 100%; padding: 12px 14px; border-radius: 12px;
 border: 1px solid rgba(255,255,255,.12);
