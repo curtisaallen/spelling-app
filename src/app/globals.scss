@@ -1,9 +1,8 @@
-@import "tailwindcss";
-@import "../app/styles/variables";
-@import "../app/styles/layout";
-@import "../app/styles/cards";
-@import "../app/styles/forms";
-@import "../app/styles/keyboard";
+@use "../app/styles/variables" as *;
+@use "../app/styles/layout" as *;
+@use "../app/styles/cards" as *;
+@use "../app/styles/forms" as *;
+@use "../app/styles/keyboard" as *;
 
 :root {
 --bg: #0f1020;
